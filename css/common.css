@@ -1,0 +1,118 @@
+
+/* Custom Styles */
+body {
+  font-family: 'Playfair Display', serif;
+  background-color: linen;
+}
+
+nav {
+  background-color: linen;
+}
+
+.row {
+  margin: 5px;
+}
+
+.monogram {
+  width: 5%; /* You might need to adjust this value */
+  
+}
+
+#carouselExampleI {
+  margin-top: 0px;
+  margin-bottom: 100px;
+  margin-right: 100px;
+  margin-left: 100px;
+}
+
+.date {
+  text-align: center;
+  font-size: 25px;
+}
+
+#mc_embed_signup {
+  font-family: 'Playfair Display', serif;
+}
+
+#carouselExampleIndicators {
+  margin: auto;
+  width: 75%;
+  padding: 0px;
+}
+
+#carouselExample {
+  margin: auto;
+  width: 75%;
+  padding: 0px;
+}
+
+/* #vertical {
+  border-left: 6px solid blue;
+  height: 200px;
+  position: absolute;
+  left: 50%;
+} */
+
+.header-img {
+  width: 100vw;
+  position: relative;
+  max-width: 100vw;
+}
+
+.header-img img {
+  width: 100%;
+}
+
+.display-3 {
+  font-style: medium;
+}
+
+.my-link {
+  font-weight: bold;
+  color: black !important;
+  text-decoration: underline dotted;
+}
+
+.h3, h3 {
+  font-size: 1.5rem;
+}
+
+.h4, h4 {
+  font-size: 1.25rem;
+}
+
+/* Bootstrap Customisations */
+.navbar-light.navbar-toggler {
+  border-style: none !important;
+}
+
+/* Bootstrap Small */
+@media only screen and (min-width: 576px) {
+  .main-content {
+    width: 85%;
+  }    
+}
+
+/* Bootstrap Medium */
+@media only screen and (min-width: 768px) {
+  .main-content {
+    width: 70%;
+  }
+}
+
+/* Bootstrap Large */
+@media only screen and (min-width: 992px) {
+  /* .main-content {
+    width: 60%;
+  } */
+}
+
+/* Bootstrap Extra Large */
+@media only screen and (min-width: 1200px) {
+  .main-content {
+    width: 700px;
+  }
+  .header-img {
+    width: 1200px;
+  }
+}
