@@ -37,14 +37,28 @@ nav {
 
 #carouselExampleIndicators {
   margin: auto;
-  width: 75%;
+  width: 80%;
   padding: 0px;
 }
 
 #carouselExample {
   margin: auto;
-  width: 75%;
+  width: 80%;
   padding: 0px;
+}
+
+@media only screen and (max-width: 767px) {
+  #carouselExampleIndicators {
+    width: 95%;
+    height: auto;
+  }
+  #carouselExample {
+    height: auto;
+    width: 95%;
+  }
+  .monogram {
+    display: none;
+  }
 }
 
 .loading-overlay {
@@ -79,9 +93,6 @@ nav {
 } */
 
 
-.navbar-toggler-icon {
-  background-color: red /* Change this color to your desired color */
-}
 
 .center-container {
   display: flex;
