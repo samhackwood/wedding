@@ -98,7 +98,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  height: 75vh;
 }
 
 .iframe-container {
@@ -140,6 +140,31 @@ nav {
 
 .h4, h4 {
   font-size: 1.25rem;
+}
+
+.navbar-toggler {
+  border-style: none;
+  outline: none;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active {
+  outline: none;
+}
+
+::-webkit-scrollbar {
+  width: 12px; /* Adjust the width as needed */
+}
+
+/* Style the scrollbar handle (thumb) */
+::-webkit-scrollbar-thumb {
+  background-color: #EBE3CC; /* Set the color to linen or any desired color */
+  border-radius: 6px; /* Set half of the width for rounded corners */
+}
+
+/* Style the scrollbar track (the area the handle moves on) */
+::-webkit-scrollbar-track {
+  background-color: transparent; /* Set the background color for the track */
 }
 
 /* Bootstrap Customisations */
