@@ -50,7 +50,7 @@
           <a class="nav-link" href="./">Home <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/about.html">Ceremony</a>
+          <a class="nav-link" href="/ceremony.html">Ceremony</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="./accommodation.html">Accommodation</a>
@@ -68,6 +68,13 @@
       <img class="monogram" src="newimages/monogram.jpeg">
     </div>
   </nav>
+
+
+  <div class="loading-overlay">
+    <img src="/newimages/monogram.jpeg" alt="Loading Image">
+</div>
+
+
   <div class="row">
     <!-- Gallery item -->
     <div class="col-xl-3 col-lg-4 col-md-6 mb-4">
@@ -84,7 +91,7 @@
 
     <!-- Gallery item -->
     <div class="col-xl-3 col-lg-4 col-md-6 mb-4">
-      <div class="bg-white rounded shadow-sm"><img src="newimages/anais.JPG" alt="" class="img-fluid card-img-top">
+      <div class="bg-white rounded shadow-sm"><img src="newimages/dupi.JPG" alt="" class="img-fluid card-img-top">
         <div class="p-4">
           <h5> <a href="#" class="text-dark">Anais Crane</a></h5>
           <p class="small text-muted mb-0">Once spent 15 minutes trying to hit a golf ball</p>
@@ -217,7 +224,7 @@
         <div class="bg-white rounded shadow-sm"><img src="https://bootstrapious.com/i/snippets/sn-gallery/img-4.jpg" alt="" class="img-fluid card-img-top">
           <div class="p-4">
             <h5> <a href="#" class="text-dark">Panna Vekaria </a></h5>
-            <p class="small text-muted mb-0">Has worked as a soldier, estate agent, makeup artist, and spiritual guide.</p>
+            <p class="small text-muted mb-0">Has worked as an estate agent, makeup artist, and spiritual guide</p>
             <div class="d-flex align-items-center justify-content-between rounded-pill bg-light px-3 py-2 mt-4">Bridesmaid
             </div>
           </div>
@@ -266,7 +273,7 @@
   
       <!-- Gallery item -->
       <div class="col-xl-3 col-lg-4 col-md-6 mb-4">
-        <div class="bg-white rounded shadow-sm"><img src="newimages/yury.JPG" alt="" class="img-fluid card-img-top">
+        <div class="bg-white rounded shadow-sm"><img src="newimages/bonnie.jpg" alt="" class="img-fluid card-img-top">
           <div class="p-4">
             <h5> <a href="#" class="text-dark">Bonnie Bowyer</a></h5>
             <p class="small text-muted mb-0">Certified fairy</p>
@@ -329,6 +336,25 @@
     crossorigin="anonymous"></script>
   <!-- <script src="https://unpkg.com/jarallax@1.10/dist/jarallax.min.js"></script>
   <script src="js/image_scrolling.js"></script> -->
+
+  <script>
+
+    document.addEventListener("DOMContentLoaded", function () {
+    // Simulate a delay (replace this with actual loading logic)
+    setTimeout(function () {
+        // Add a class to the loading overlay to initiate the fade-out effect
+        document.querySelector('.loading-overlay').classList.add('fade-out');
+
+        // Optional: Remove the loading overlay from the DOM after the fade-out animation completes
+        setTimeout(function () {
+            document.querySelector('.loading-overlay').style.display = 'none';
+        }, 1000); // Set the time to match the transition duration
+    }, 2000); // Set the delay time in milliseconds (e.g., 2000 ms or 2 seconds)
+});
+console.log("Fear him")
+</script>
+
+
 </body>
 
 </html>
