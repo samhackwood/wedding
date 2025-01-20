@@ -1,0 +1,221 @@
+
+/* Custom Styles */
+body {
+  font-family: 'Playfair Display', serif;
+  background-color: linen;
+}
+
+nav {
+  background-color: linen;
+}
+
+.row {
+  margin: 5px;
+}
+
+.monogram {
+  width: 5%; /* You might need to adjust this value */
+  
+}
+
+
+#carouselExampleI {
+  margin-top: 0px;
+  margin-bottom: 100px;
+  margin-right: 100px;
+  margin-left: 100px;
+}
+
+.date {
+  text-align: center;
+  font-size: 25px;
+}
+
+#mc_embed_signup {
+  font-family: 'Playfair Display', serif;
+}
+
+#carouselExampleIndicators {
+  margin: auto;
+  width: 80%;
+  padding: 0px;
+}
+
+#carouselExample {
+  margin: auto;
+  width: 80%;
+  padding: 0px;
+}
+
+@media only screen and (max-width: 767px) {
+  #carouselExampleIndicators {
+    width: 95%;
+    height: auto;
+  }
+  #carouselExample {
+    height: auto;
+    width: 95%;
+  }
+  .monogram {
+    display: none;
+  }
+}
+
+.loading-overlay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: linen;
+  z-index: 999;
+  opacity: 1;
+  transition: opacity 1s ease;
+}
+
+.loading-overlay img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.loading-overlay.fade-out {
+  opacity: 0;
+}
+
+/* #vertical {
+  border-left: 6px solid blue;
+  height: 200px;
+  position: absolute;
+  left: 50%;
+} */
+
+
+
+.center-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 75vh;
+}
+
+.iframe-container {
+  width: 600px; /* Set your desired width */
+  height: 450px; /* Set your desired height */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+}
+
+.iframe-container iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.header-img {
+  width: 100vw;
+  position: relative;
+  max-width: 100vw;
+}
+
+.header-img img {
+  width: 100%;
+}
+
+.display-3 {
+  font-style: medium;
+}
+
+.my-link {
+  font-weight: bold;
+  color: black !important;
+  text-decoration: underline dotted;
+}
+
+.h3, h3 {
+  font-size: 1.5rem;
+}
+
+.h4, h4 {
+  font-size: 1.25rem;
+}
+
+.navbar-toggler {
+  border-style: none;
+  outline: none;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active {
+  outline: none;
+}
+
+::-webkit-scrollbar {
+  width: 12px; /* Adjust the width as needed */
+}
+
+/* Style the scrollbar handle (thumb) */
+::-webkit-scrollbar-thumb {
+  background-color: #EBE3CC; /* Set the color to linen or any desired color */
+  border-radius: 6px; /* Set half of the width for rounded corners */
+}
+
+/* Style the scrollbar track (the area the handle moves on) */
+::-webkit-scrollbar-track {
+  background-color: transparent; /* Set the background color for the track */
+}
+
+/* Bootstrap Customisations */
+.navbar-light.navbar-toggler {
+  border-style: none !important;
+}
+
+/* Bootstrap Small */
+@media only screen and (min-width: 576px) {
+  .main-content {
+    width: 85%;
+  }    
+}
+
+/* Bootstrap Medium */
+@media only screen and (min-width: 768px) {
+  .main-content {
+    width: 70%;
+  }
+}
+
+/* Bootstrap Large */
+@media only screen and (min-width: 992px) {
+  /* .main-content {
+    width: 60%;
+  } */
+}
+
+/* Bootstrap Extra Large */
+@media only screen and (min-width: 1200px) {
+  .main-content {
+    width: 700px;
+  }
+  .header-img {
+    width: 1200px;
+  }
+}
+
+
+.image-container {
+  display: flex;
+  gap: 10px; /* Adds space between images */
+  justify-content: center; /* Centers images horizontally */
+}
+
+.image-item img {
+  width: 200; /* Ensures images are responsive */
+  max-width: 500px; /* Optional: Sets a maximum width for each image */
+  height: auto; /* Maintains aspect ratio */
+  border: 2px solid #ddd; /* Optional: Adds a border for styling */
+  border-radius: 5px; /* Optional: Rounds corners */
+}
+
+
