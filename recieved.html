@@ -43,8 +43,13 @@
 </head>
 
 <body>
+  <script>
+    if (localStorage.getItem('authenticated') !== 'true') {
+    window.location.href = '/index.html'; // Redirect to login page
+  }
+  </script>
   <nav class="navbar navbar-expand-sm navbar-light bg-light">
-    <a class="navbar-brand" href="./">Samuel & Anaïs</a>
+    <a class="navbar-brand" href="./home.html">Samuel & Anaïs</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <i class="fas fa-bars"></i>

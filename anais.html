@@ -36,6 +36,11 @@
 </head>
 
 <body>
+  <script>
+    if (localStorage.getItem('authenticated') !== 'true') {
+    window.location.href = '/index.html'; // Redirect to login page
+  }
+  </script>
   <nav class="navbar navbar-expand-sm navbar-light align-items-start mb-0">
     <a class="navbar-brand" href="./">Samuel & Anaïs</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
